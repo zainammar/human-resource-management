@@ -1,0 +1,57 @@
+<style>
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+</style>
+
+<h1>Employment Works ✅</h1>
+<h1>Add Employee</h1>
+
+<form method="POST">
+  <label>Name:</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>Position:</label><br>
+  <input type="text" name="position" required><br><br>
+
+  <label>Department:</label><br>
+  <input type="text" name="department" required><br><br>
+
+  <label>Salary:</label><br>
+  <input type="number" name="salary" required><br><br>
+
+  <button type="submit">Save</button>
+</form>
+
+<br>
+<a href="/employment/">Back to list</a>

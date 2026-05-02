@@ -1,0 +1,20 @@
+# Flask / Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+.venv/
+venv/
+env/
+venv
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+**/.env
